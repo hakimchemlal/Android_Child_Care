@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bambino.Food"
+    android:background="@drawable/appbackground"
+    >
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textViewApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/fredokaone"
+        android:textAlignment="center"
+        android:text="How Should I Introduce My Child to Foods?"
+        android:textColor="@color/red"
+        android:textSize="35sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/poppins_medium"
+        android:layout_marginRight="30dp"
+        android:textAllCaps="true"
+        android:textColor="@color/TransparentBlack"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text="At first, it’s easier for your child to eat foods that are mashed, pureed, or strained and very smooth in texture. It can take time for your child to adjust to new food textures. Your child might cough, gag, or spit up. As your baby’s oral skills develop, thicker and lumpier foods can be introduced.
+
+Some foods are potential choking hazards, so it is important to feed your child foods that are the right texture for his or her development. To help prevent choking, prepare foods that can be easily dissolved with saliva and do not require chewing. Feed small portions and encourage your baby to eat slowly. Always watch your child while he or she is eating.
+
+Here are some tips for preparing foods:
+
+    Mix cereals and mashed cooked grains with breast milk, formula, or water to make it smooth and easy for your baby to swallow.
+    Mash or puree vegetables, fruits and other foods until they are smooth.
+    Hard fruits and vegetables, like apples and carrots, usually need to be cooked so they can be easily mashed or pureed.
+    Cook food until it is soft enough to easily mash with a fork.
+    Remove all fat, skin, and bones from poultry, meat, and fish, before cooking.
+    Remove seeds and hard pits from fruit, and then cut the fruit into small pieces.
+    Cut soft food into small pieces or thin slices.
+    Cut cylindrical foods like hot dogs, sausage and string cheese into short thin strips instead of round pieces that could get stuck in the airway.
+    Cut small spherical foods like grapes, cherries, berries and tomatoes into small pieces.
+    Cook and finely grind or mash whole-grain kernels of wheat, barley, rice, and other grains.
+
+"
+
+
+        />
+
+  </LinearLayout>
+
+</ScrollView>

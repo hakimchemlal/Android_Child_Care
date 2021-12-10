@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/appbackground"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textViewApp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="120dp"
+            android:layout_marginLeft="120dp"
+            android:fontFamily="@font/fredokaone"
+            android:text="HICCUPS"
+            android:textColor="@color/red"
+            android:textSize="35sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/poppins_medium"
+            android:layout_marginRight="30dp"
+            android:textAllCaps="true"
+            android:textColor="@color/TransparentBlack"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:text="Take a break and burp -
+	Taking a break from a feeding to burp your baby may help get rid of the hiccups, since burping can get rid of excess gas that may be causing the hiccups. Burping will also help because it places your baby into an upright position.
+
+Use a pacifier -
+	Infant hiccups don’t always start from a feeding. When your baby starts to hiccup on their own, try allowing them to suck on a pacifier, as this will help relax the diaphragm and may help stop the bout of hiccups.
+
+Feed the baby gripe water -
+	If your baby seems to be in discomfort because of their hiccups, then you may want to try feeding them gripe water. Gripe water is a combination of herbs and water that is believed by some to help with colic and other intestinal discomforts."
+             />
+
+    </LinearLayout>
+</ScrollView>

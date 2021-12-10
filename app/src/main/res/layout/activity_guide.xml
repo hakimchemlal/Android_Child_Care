@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bambino.Guide"
+    android:background="@drawable/appbackground"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewApp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/fredokaone"
+            android:text="Health , Pregnancy "
+            android:textColor="@color/red"
+            android:textSize="35sp" />
+        <TextView
+            android:id="@+id/textViewAApp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:fontFamily="@font/fredokaone"
+            android:layout_gravity="center"
+            android:text=" Guide"
+            android:textColor="@color/red"
+            android:textSize="35sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/poppins_medium"
+            android:layout_marginRight="30dp"
+            android:textAllCaps="true"
+            android:textColor="@color/TransparentBlack"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:text="Every new mom and new dad needs some help.
+Here's everything you need to know about sleeping, breastfeeding,
+ crying and more to get through those first few weeks with a new baby."
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/poppins_medium"
+            android:layout_marginRight="30dp"
+            android:textAllCaps="true"
+            android:textColor="@color/TransparentBlack"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:text="Like most things in life, it takes time. You will learn how to care for your
+baby and become more comfortable in your abilities as time goes on.
+Below are a few tips to help you out:"
+            />
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/poppins_medium"
+            android:layout_marginRight="30dp"
+            android:textAllCaps="true"
+            android:textColor="@color/TransparentBlack"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:text="-Holding your baby -Crying -Washing -Sleeping"
+            />
+
+        <ImageView
+            android:layout_width="312dp"
+            android:layout_height="206dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bb" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bambino">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/child"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/child"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity
+            android:name="com.example.bambino.Sleep"
+            android:exported="false" />
+        <activity
+            android:name="com.example.bambino.Food"
+            android:exported="false" />
+        <activity
+            android:name="com.example.bambino.Guide"
+            android:exported="false" />
+        <activity
+            android:name="com.example.bambino.Baby"
+            android:exported="false" />
+        <activity
+            android:name="com.example.bambino.StomachAche"
+            android:exported="false" />
+        <activity
+            android:name="com.example.bambino.Hiccups"
+            android:exported="false" />
+        <activity
+            android:name="com.example.bambino.GasandAcidity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.bambino.FeverActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.bambino.Constipation"
+            android:exported="false" />
+        <activity
+            android:name="com.example.bambino.CommonCold"
+            android:exported="false" />
+        <activity
+            android:name="com.example.bambino.HealthCare"
+            android:exported="false" />
+        <activity
+            android:name="com.example.bambino.Vaccine"
+            android:exported="false" />
+
+        <activity
+            android:name="com.example.bambino.PickAgeRange"
+            android:exported="false"> </activity>
+        <activity
+            android:name="com.example.bambino.Home"
+            android:exported="false"> </activity>
+        <activity
+            android:name="com.example.bambino.Register"
+            android:exported="false"> </activity>
+        <activity
+            android:name="com.example.bambino.Login"
+            android:exported="false"> </activity>
+        <activity
+            android:name="com.example.bambino.LandPage"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

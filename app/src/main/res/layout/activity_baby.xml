@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bambino.Baby"
+    android:background="@drawable/appbackground"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewApp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/fredokaone"
+            android:textAlignment="center"
+            android:text="Playing with your baby : why it’s important ?"
+            android:textColor="@color/red"
+            android:textSize="35sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/poppins_medium"
+            android:layout_marginRight="30dp"
+            android:textAllCaps="true"
+            android:textColor="@color/TransparentBlack"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:text="Play is essential for your baby’s overall development, learning and wellbeing.
+
+Through play, your newborn learns about the world around him and how he can interact with it. New play experiences also help parts of your newborn’s brain connect and grow. And play that gets your newborn moving builds muscle strength as well as gross motor skills and fine motor skills.
+
+Playing with your newborn helps her learn to talk and understand words. You might not always have time to stop everything and play, but you can still chat to your newborn about what’s going on – for example, while cooking dinner, shopping or folding clothes.
+
+Playing together helps you and your newborn get to know each other. That’s because play can tell you a lot about your newborn’s personality. Rough and silly or quiet and calm, you’ll soon know what your newborn likes.
+Play ideas for newborn babies
+
+Playing with your newborn is about the interactions between you and your newborn, not about games and toys. This means that all you need to get started with newborn play is yourself and your baby.
+
+Here are some play ideas for newborn babies:
+
+    Sing, chat, tickle, count toes, blow raspberries – simple things are best for newborns. Babies also love nursery rhymes that involve touch like ‘Round and round the garden’. Sharing nursery rhymes or traditional songs from your own culture and language is great too.
+    Make faces, smile, laugh, roll your eyes or poke out your tongue. Your newborn loves watching your face. Nappy-changing is a great time for face-to-face play.
+    Give your newborn different objects to feel – soft toys, rattles or cloth books with pages of different textures are lots of fun for your newborn. Feeling different things helps your newborn learn about the world.
+    Give your newborn different things to look at – outside, inside, different people or different rooms.
+    Give your newborn tummy time each day. This gives your newborn practice holding up his head and lets him see things from a different point of view. Always watch your newborn during tummy time and put him on his back to sleep.
+    Talk or make sounds with your newborn, and wait for her to respond. It might take a little while but you’ll be surprised at how much your newborn has to ‘say’. This shows your newborn that conversations are about taking turns, listening and responding.
+    Try reading with your baby. It’s never too early to start, but remember to hold the book close – newborns can see only about 20-30 cm in front of them.
+
+And remember to enjoy yourselves. It’s only play if it’s fun.
+"
+
+
+            />
+
+    </LinearLayout>
+
+</ScrollView>

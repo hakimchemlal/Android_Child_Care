@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/appbackground"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textViewApp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="60dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/fredokaone"
+            android:text="COMMON COLD"
+            android:textColor="@color/red"
+            android:textSize="35sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/poppins_medium"
+            android:layout_marginRight="30dp"
+            android:textAllCaps="true"
+            android:textColor="@color/TransparentBlack"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:text="Elevate your baby's head to help ease breathing -
+	You can do this with a sleep positioner or a firm pillow placed snugly under a fitted sheet. Don’t use anything soft or cushy.
+
+Give plenty of liquids including breast milk
+
+Suction out nasal mucus using saline drops and a suction bulb
+
+Moisturize the air with a humidifier -
+	Ask your doctor if they recommend a warm or cool mist type.
+	 Warm humidifiers may pose a burning risk to older,
+	  curious children.
+"
+            />
+
+    </LinearLayout>
+</ScrollView>

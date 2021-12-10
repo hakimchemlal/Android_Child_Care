@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/hakim/AndroidStudioProjects/BamBino/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.19722222222222222" />
+        <entry key="..\:/Users/hakim/AndroidStudioProjects/BamBino/app/src/main/res/drawable/ic_launcher_background.xml" value="0.19722222222222222" />
+        <entry key="..\:/Users/hakim/AndroidStudioProjects/BamBino/app/src/main/res/font/poppins.xml" value="0.29583333333333334" />
+        <entry key="..\:/Users/hakim/AndroidStudioProjects/BamBino/app/src/main/res/layout/activity_baby.xml" value="0.1983695652173913" />
+        <entry key="..\:/Users/hakim/AndroidStudioProjects/BamBino/app/src/main/res/layout/activity_common_cold.xml" value="0.265625" />
+        <entry key="..\:/Users/hakim/AndroidStudioProjects/BamBino/app/src/main/res/layout/activity_constipation.xml" value="0.265625" />
+        <entry key="..\:/Users/hakim/AndroidStudioProjects/BamBino/app/src/main/res/layout/activity_fever.xml" value="0.265625" />
+        <entry key="..\:/Users/hakim/AndroidStudioProjects/BamBino/app/src/main/res/layout/activity_food.xml" value="0.265625" />
+        <entry key="..\:/Users/hakim/AndroidStudioProjects/BamBino/app/src/main/res/layout/activity_gasand_acidity.xml" value="0.265625" />
+        <entry key="..\:/Users/hakim/AndroidStudioProjects/BamBino/app/src/main/res/layout/activity_guide.xml" value="0.265625" />
+        <entry key="..\:/Users/hakim/AndroidStudioProjects/BamBino/app/src/main/res/layout/activity_health_care.xml" value="0.21" />
+        <entry key="..\:/Users/hakim/AndroidStudioProjects/BamBino/app/src/main/res/layout/activity_hiccups.xml" value="0.265625" />
+        <entry key="..\:/Users/hakim/AndroidStudioProjects/BamBino/app/src/main/res/layout/activity_home.xml" value="0.33" />
+        <entry key="..\:/Users/hakim/AndroidStudioProjects/BamBino/app/src/main/res/layout/activity_sleep.xml" value="0.265625" />
+        <entry key="..\:/Users/hakim/AndroidStudioProjects/BamBino/app/src/main/res/layout/activity_stomach_ache.xml" value="0.265625" />
+        <entry key="..\:/Users/hakim/AndroidStudioProjects/BamBino/app/src/main/res/layout/activity_vaccine.xml" value="0.265625" />
+        <entry key="..\:/Users/hakim/AndroidStudioProjects/BamBino/app/src/main/res/layout/land_page.xml" value="0.25" />
+        <entry key="..\:/Users/hakim/AndroidStudioProjects/BamBino/app/src/main/res/layout/login_page.xml" value="0.33" />
+        <entry key="..\:/Users/hakim/AndroidStudioProjects/BamBino/app/src/main/res/layout/pick_age_page.xml" value="0.25" />
+        <entry key="..\:/Users/hakim/AndroidStudioProjects/BamBino/app/src/main/res/layout/register_page.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

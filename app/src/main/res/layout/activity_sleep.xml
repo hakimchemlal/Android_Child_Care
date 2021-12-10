@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mombaby"
+    android:orientation="vertical"
+    tools:context="com.example.bambino.Sleep">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textViewApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:fontFamily="@font/fredokaone"
+        android:text="GOOD NIGHT AND SWEET DREAMS"
+        android:textColor="@color/red"
+        android:textSize="35sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center|bottom">
+        <Button
+            android:id="@+id/button"
+            android:layout_width="200dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:background="@drawable/button_radius_style_dark_grey"
+            android:onClick="playIT"
+            android:text="PLAY"
+            android:layout_marginBottom="30dp"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+        <Button
+            android:id="@+id/buttonStop"
+            android:layout_width="200dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:background="@drawable/button_radius_style_dark_grey"
+            android:onClick="StopIT"
+            android:text="PAUSE"
+            android:layout_marginBottom="30dp"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+    </LinearLayout>
+</LinearLayout>

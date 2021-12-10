@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingVertical="10dp"
+    android:paddingHorizontal="15dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bambino.PickAgeRange">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="100dp"
+        android:paddingVertical="5dp"
+        android:paddingHorizontal="15dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/brittany_signature"
+            android:gravity="center"
+            android:text="BomBino"
+            android:textColor="@color/white"
+            android:textSize="80sp"
+            android:textStyle="bold|italic" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginVertical="15dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Enter You Child Age"
+            android:textColor="@color/white"
+            android:textStyle="normal"
+            android:textSize="30sp"/>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingVertical="10dp"
+        android:paddingHorizontal="15dp">
+
+        <Button
+            android:id="@+id/decrease"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:text="-"
+            android:onClick="decreaseAge"
+            android:textSize="30sp"
+            android:background="@drawable/button_radius_red_rounded" />
+
+        <TextView
+            android:id="@+id/inputAge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="16dp"
+            android:text="0"
+            android:textStyle="bold"
+            android:textSize="70sp" />
+
+        <Button
+            android:id="@+id/increase"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:text="+"
+            android:onClick="increaseAge"
+            android:textSize="30sp"
+            android:background="@drawable/button_radius_red_rounded"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center|bottom">
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:background="@drawable/button_radius_style_red"
+            android:text="submit"
+            android:layout_marginBottom="70dp"
+            android:textSize="20sp"
+            android:textStyle="normal|bold"/>
+    </LinearLayout>
+
+</LinearLayout>

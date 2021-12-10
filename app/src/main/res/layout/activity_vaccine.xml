@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/appbackground"
+    tools:context="com.example.bambino.Vaccine">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            >
+                <TextView
+                    android:id="@+id/textViewApp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/fredokaone"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="30dp"
+                    android:text="VACCINE"
+                    android:gravity="center"
+                    android:textColor="@color/red"
+                    android:textSize="40sp" />
+                <View
+                    android:layout_width="300dp"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:background="@color/black"
+                    android:layout_marginBottom="15dp">
+                </View>
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="60dp"
+                    android:layout_marginLeft="60dp"
+                    android:text="Birth"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginLeft="100dp"
+                    android:text="BCG"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginLeft="100dp"
+                    android:text="OPV"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginLeft="100dp"
+                    android:text="Hep B1"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="60dp"
+                    android:layout_marginLeft="100dp"
+                    android:text="6 weeks"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginLeft="100dp"
+                    android:text="DPT1"
+                    android:layout_gravity="start"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginLeft="100dp"
+                    android:text="Polio 1"
+                    android:layout_gravity="start"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginLeft="100dp"
+                    android:text="Hep B2"
+                    android:layout_gravity="start"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="60dp"
+                    android:layout_marginLeft="100dp"
+                    android:text="10 weeks"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginLeft="100dp"
+                    android:text="DPT2"
+                    android:layout_gravity="start"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginLeft="100dp"
+                    android:layout_gravity="start"
+                    android:textAlignment="textStart"
+                    android:text="Polio 2"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="60dp"
+                    android:layout_marginLeft="100dp"
+                    android:text="16 weeks"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginLeft="100dp"
+                    android:text="DPT3"
+                    android:layout_gravity="start"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginLeft="100dp"
+                    android:text="Polio 3"
+                    android:layout_gravity="start"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="60dp"
+                    android:layout_marginLeft="60dp"
+                    android:text="6 months"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginLeft="100dp"
+                    android:text="Hep B3"
+                    android:layout_gravity="start"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="60dp"
+                    android:layout_marginLeft="60dp"
+                    android:text="10 months"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginLeft="100dp"
+                    android:text="Measles"
+                    android:layout_gravity="start"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="60dp"
+                    android:layout_marginLeft="60dp"
+                    android:text="1 year"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginLeft="100dp"
+                    android:text="Chicken Pox"
+                    android:layout_gravity="start"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="60dp"
+                    android:layout_marginLeft="60dp"
+                    android:text="18 months"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginLeft="100dp"
+                    android:text="DPT Booster"
+                    android:layout_gravity="start"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginLeft="100dp"
+                    android:text="Polio Booster"
+                    android:layout_gravity="start"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="60dp"
+                    android:layout_marginLeft="60dp"
+                    android:text="2 years"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginLeft="100dp"
+                    android:text="Typhoid"
+                    android:layout_gravity="start"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginLeft="100dp"
+                    android:text="Hep A1"
+                    android:layout_gravity="start"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="60dp"
+                    android:layout_marginLeft="100dp"
+                    android:text="2 years 6 months"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginLeft="100dp"
+                    android:text="Hep A2"
+                    android:layout_gravity="start"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+        </LinearLayout>
+
+
+</ScrollView>
