@@ -12,4 +12,4 @@ Pour créer cette application, vous devez utiliser Android Studio IDE pour que l
 utilisateur peut être développée en utilisant XML.
 
 # Interface de l'application BamBino :
-
+<img src="app/src/main/res/interface/start.jpg ">
